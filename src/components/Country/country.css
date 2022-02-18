@@ -1,0 +1,42 @@
+.country {
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    text-align: center;
+    background: #0a0c87;
+    background: -webkit-linear-gradient(to right, #0a0c87, grey);
+    background: linear-gradient(to right, #0a0c87, grey);
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+.country:hover {
+    transform: scale(1.1);
+}
+
+.country > img {
+    transform: scale(0.5);
+}
+
+.country > h2 {
+    margin: 5px 0;
+}
+
+#popover-basic {
+    color: white;
+}
+
+strong {
+    color: red !important;
+}
+
+.describe {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    justify-items: center;
+    width: 95%;
+}
